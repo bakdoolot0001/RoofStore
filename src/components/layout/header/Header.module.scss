@@ -1,0 +1,122 @@
+$primary-color: #44444e;
+$primary-bg: radial-gradient(
+  106.03% 136.67% at 50% 0%,
+  #ffc400 0%,
+  #ff9900 100%
+);
+
+.Header {
+  padding: 20px 0;
+  color: $primary-color;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  span {
+    height: 70px;
+    width: 1px;
+    border-right: 1px solid #000;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 155%;
+  }
+}
+
+.price_list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .Pdf {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 15 px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $primary-bg;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+  }
+}
+
+.catalog {
+  padding: 13px 20px;
+  border-radius: 30px;
+  background: $primary-bg;
+  color: $primary-color;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.online_social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  li {
+    font-size: 14px;
+    color: $primary-color;
+    &::marker {
+      color: #4edd4c;
+    }
+  }
+  .social_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      width: 43px;
+      height: 35px;
+      font-size: 20px;
+      border-radius: 8px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:nth-child(1) {
+        background: #4edd4c;
+      }
+      &:nth-child(2) {
+        background: linear-gradient(
+          139.57deg,
+          rgba(40, 169, 234, 0.3) 0%,
+          #28a9ea 100%
+        );
+      }
+      &:nth-child(3) {
+        background: #0077ff;
+      }
+    }
+  }
+}
+
+.phone {
+  color: $primary-color;
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 28px;
+    span {
+      font-weight: 400;
+      font-size: 18px;
+      text-decoration-line: underline;
+    }
+  }
+}

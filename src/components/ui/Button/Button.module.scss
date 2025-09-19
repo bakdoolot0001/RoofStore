@@ -1,0 +1,28 @@
+.base {
+  padding: 20px 20px;
+  border-radius: 30px;
+  
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.primary {
+  background: radial-gradient(
+    106.03% 136.67% at 50% 0%,
+    #ffc400 0%,
+    #ff9900 100%
+  );
+  color: #44444e;
+}
+
+.secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid #FFC400;
+  color: #44444E;
+}

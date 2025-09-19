@@ -1,0 +1,38 @@
+.Welcome {
+  background: url(../../../../assets/images/welcome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 82vh;
+  display: flex;
+  align-items: center;
+}
+
+.welcome_content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    color: #303030;
+    text-transform: uppercase;
+    span {
+      font-weight: 500;
+      font-size: 45px;
+      line-height: 100%;
+      color: #ffc400;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #303030;
+    span {
+      color: #ffc400;
+    }
+  }
+}
