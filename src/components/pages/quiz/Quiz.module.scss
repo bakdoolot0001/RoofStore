@@ -1,0 +1,97 @@
+.quiz {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 10px;
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #ffcc00, #ff8800);
+}
+
+.progressText {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.optionBtn {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+.optionBtn:hover {
+  background: #ffe8b3;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.inputBox input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.nextBtn,
+.backBtn,
+.submitBtn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nextBtn {
+  background: #ff8800;
+  color: #fff;
+}
+
+.backBtn {
+  background: #ddd;
+}
+
+.submitBtn {
+  background: #ff8800;
+  color: #fff;
+  width: 100%;
+}
