@@ -1,0 +1,37 @@
+.About {
+  margin: 30px 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.about_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: radial-gradient(106.03% 136.67% at 50% 0%, #ffc400 0%, #ff9900 100%);
+    color: radial-gradient(106.03% 136.67% at 50% 0%, #FFC400 0%, #FF9900 100%);
+    color: #FFC400;
+
+  }
+  p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 180%;
+    color: #44444e;
+  }
+}
+
+.about_blocks {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
