@@ -21,7 +21,13 @@
 }
 
 .outline {
+  padding: 10px 20px;
   background: transparent;
-  border: 1px solid #FFC400;
-  color: #44444E;
+  border: 1px solid #ffc400;
+  color: #44444e;
+  transition: 0.5s;
+  &:hover,
+  &:focus {
+    background: #ffc400;
+  }
 }
