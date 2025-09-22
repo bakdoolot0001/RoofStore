@@ -8,6 +8,28 @@
   align-items: center;
 }
 
+.container {
+  width: 100%;
+  padding-left: 50px;
+  position: relative;
+}
+
+.box1 {
+  position: absolute;
+  top: 39%;
+  right: 0%;
+}
+.box2 {
+  position: absolute;
+  top: 55%;
+  right: 0%;
+}
+.box3 {
+  position: absolute;
+  top: 71%;
+  right: 0%;
+}
+
 .welcome_content {
   display: flex;
   flex-direction: column;
