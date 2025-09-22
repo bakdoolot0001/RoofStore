@@ -1,0 +1,41 @@
+.aboutCard {
+  width: 460px;
+  height: 300px;
+  box-shadow: 0px 4px 25px 0px #9fbdcf26;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: linear-gradient(
+      269.73deg,
+      #4b4a53 9.23%,
+      #808086 54.08%,
+      #4b4a53 99.88%
+    );
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #69686f;
+  }
+  .figure {
+    width: 60px;
+    min-height: 60px;
+    border-radius: 10px;
+    background: radial-gradient(
+      106.03% 136.67% at 50% 0%,
+      #ffc400 0%,
+      #ff9900 100%
+    );
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
