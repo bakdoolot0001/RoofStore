@@ -6,6 +6,10 @@ import Quiz from "./quiz/Quiz";
 const MainPage = () => {
   return (
     <section>
+      <Welcome />
+      <About />
+      <Quiz />
+    </section>
   );
 };
 
