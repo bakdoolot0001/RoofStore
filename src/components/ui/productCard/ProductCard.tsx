@@ -3,6 +3,7 @@ import { Button } from "../Button/Button";
 import { TestDataProps } from "@/components/pages/main/katalog/Catalog";
 import { FC } from "react";
 import sass from "./ProductCard.module.scss"
+import Link from "next/link";
 
 interface TestElProps {
   el: TestDataProps
@@ -11,7 +12,9 @@ interface TestElProps {
 const ProductCard: FC<TestElProps> = ({el}) => {
   return (
     <div className={sass.productCard}>
+      <Link href={"/detail"}>
       <Image src={el.img} alt="img"/>
+      </Link>
       <div className={sass.content}>
         <h3>{el.title}</h3>
         <div className={sass.charakter}>
